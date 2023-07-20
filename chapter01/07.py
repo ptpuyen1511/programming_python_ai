@@ -1,3 +1,5 @@
+# Problem: Write an algorithm that inputs an integer and the checks whether it is palindrome.
+
 # Method 1: Use instruction
 def is_palindrome_1(n):
     if n < 0:

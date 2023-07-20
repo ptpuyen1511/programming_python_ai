@@ -1,3 +1,5 @@
+# Algorithm: Write an algorithm that inputs an integer and then returns an integer with digits in reverse order.
+
 # Method 1: Use instruction
 def reverse_1(n):
     neg = n < 0

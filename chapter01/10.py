@@ -1,3 +1,5 @@
+# Algorithm: Write an algorithm that inputs two strings s1, s2 and then checks whether two strings are permutation of each other.
+
 # Import package
 from collections import Counter
 

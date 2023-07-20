@@ -1,3 +1,6 @@
+# A rectangle is represented [x1, y1, x2, y2] where (x1, y1) is coodinates of the left-bottom corner and (x2, y2) is coordinates of the upper-right corner of a rectangle.
+# Write an algorithm to input 2 rectangles and print the intersection area.
+
 # A function that checks whether two rectangles intersect
 def check_intersect(rect_1, rect_2):
     if rect_1[0] > rect_2[2] or rect_1[2] < rect_2[0] or rect_1[1] > rect_2[3] or rect_1[3] < rect_2[1]:

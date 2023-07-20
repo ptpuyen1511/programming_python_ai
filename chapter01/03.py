@@ -1,3 +1,5 @@
+# Problem: Write an algorithm that inputs a postive integer n, and then outputs that n is a prime number or not
+
 # A function that checks whether a number is prime
 def is_prime_number(n):
     if n <= 1:

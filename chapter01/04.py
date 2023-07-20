@@ -1,3 +1,5 @@
+# Problem: Write an algorithm that prints all prime numbers that smaller than n.
+
 # A function that checks whether a number is prime
 def is_prime_number(n):
     if n <= 1:

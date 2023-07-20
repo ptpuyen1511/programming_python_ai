@@ -1,3 +1,5 @@
+# Problem: Write algorithm that inputs n rectangles and then outputs two rectangles that have the largest intersection area.
+
 # A function that checks whether two rectangles intersect
 def check_intersect(rect_1, rect_2):
     if rect_1[0] > rect_2[2] or rect_1[2] < rect_2[0] or rect_1[1] > rect_2[3] or rect_1[3] < rect_2[1]:

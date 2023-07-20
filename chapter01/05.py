@@ -1,3 +1,5 @@
+# Problem: Write an algorithm that inputs two integer x, y and then calculate x^y.
+
 # A function that calc x^y using fast power algorithm
 def fast_power(x, y):
     res = 1

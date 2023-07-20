@@ -1,3 +1,6 @@
+# Problem: Let x1, ..., xn and y1, ..., yn with xi, yi present a segment [xi, yi].
+# Write an algorithm that input n segments and then outputs two segments that have the largest intersection.
+
 # A function that finds intersection of two segements
 def find_intersection(seg_1, seg_2):
     # Find intersection
