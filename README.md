@@ -6,3 +6,5 @@ This repository contains Python solutions to programming problems.
 ### [Chapter 1: Algorithm and Programme](chapter01/)
 
 ### [Chapter 2: Structured Programming](chapter02/)
+
+### [Chapter 3: Function](chapter03/)

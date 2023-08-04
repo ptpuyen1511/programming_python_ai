@@ -3,7 +3,7 @@
 s = 0
 
 # Enter input
-n = int(input('Enter a postive integer: '))
+n = int(input('Enter a positive integer: '))
 
 # Calc sum
 for i in range(1, n + 1):

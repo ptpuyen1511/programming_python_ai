@@ -9,7 +9,7 @@ def check_intersect(rect_1, rect_2):
 
 # A function that finds the area of two intersected rectangles
 def find_intersection_area(rect_1, rect_2):
-    # Check whether input rectangels intersect
+    # Check whether input rectangles intersect
     if not check_intersect(rect_1, rect_2):
         return 0
     
@@ -48,7 +48,7 @@ n = int(input('How many rectangles do you have? '))
 
 list_rects = []
 for i in range(n):
-    inp = input(f'Enter the coordinates of rectangle {i+1} (seperated by space): ')
+    inp = input(f'Enter the coordinates of rectangle {i+1} (separated by space): ')
     rect = [float(x) for x in inp.split()]
     list_rects.append(rect)
 

@@ -1,8 +1,8 @@
-# Problem: Write an algorithm to input 2 segements [a, b] and [c, d] and print the intersection if non-empty
+# Problem: Write an algorithm to input 2 segments [a, b] and [c, d] and print the intersection if non-empty
 
 # Enter inputs
-inp_1 = input('Insert first segment (two numbers seperated by space): ')
-inp_2 = input('Insert second segment (two numbers seperated by space): ')
+inp_1 = input('Insert first segment (two numbers separated by space): ')
+inp_2 = input('Insert second segment (two numbers separated by space): ')
 
 # Parse inputs
 seg_1 = [int(x) for x in inp_1.split()]

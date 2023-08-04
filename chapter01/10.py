@@ -17,6 +17,6 @@ str_2 = input('Enter the second string: ')
 
 # Print output
 if is_permutation(str_1, str_2):
-    print(f'{str_1} is a permuation of {str_2}')
+    print(f'{str_1} is a permutation of {str_2}')
 else:
-    print('Two strings are not permuation of each other')
+    print('Two strings are not permutation of each other')

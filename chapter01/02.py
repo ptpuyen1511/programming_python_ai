@@ -1,4 +1,4 @@
-# A rectangle is represented [x1, y1, x2, y2] where (x1, y1) is coodinates of the left-bottom corner and (x2, y2) is coordinates of the upper-right corner of a rectangle.
+# A rectangle is represented [x1, y1, x2, y2] where (x1, y1) is coordinates of the left-bottom corner and (x2, y2) is coordinates of the upper-right corner of a rectangle.
 # Write an algorithm to input 2 rectangles and print the intersection area.
 
 # A function that checks whether two rectangles intersect
@@ -10,7 +10,7 @@ def check_intersect(rect_1, rect_2):
 
 # A function that finds the area of two intersected rectangles
 def find_intersection_area(rect_1, rect_2):
-    # Check whether input rectangels intersect
+    # Check whether input rectangles intersect
     if not check_intersect(rect_1, rect_2):
         return 0
     
@@ -26,8 +26,8 @@ def find_intersection_area(rect_1, rect_2):
     return intersection_area
 
 # Enter input
-inp_1 = input('Enter the coordinates of the first rectangle (seperated by space): ')
-inp_2 = input('Enter the coordinates of the second rectangle (seperated by space): ')
+inp_1 = input('Enter the coordinates of the first rectangle (separated by space): ')
+inp_2 = input('Enter the coordinates of the second rectangle (separated by space): ')
 
 # Parse inputs
 rect_1 = [float(x) for x in inp_1.split()]
