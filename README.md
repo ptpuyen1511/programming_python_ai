@@ -8,3 +8,5 @@ This repository contains Python solutions to programming problems.
 ### [Chapter 2: Structured Programming](chapter02/)
 
 ### [Chapter 3: Function](chapter03/)
+
+### [Chapter 4: Recursion](chapter04/)
