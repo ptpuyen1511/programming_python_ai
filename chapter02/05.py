@@ -1,9 +1,9 @@
-# Problem: Write algorithm that calculates the sum of the squres of the first n numbers
+# Problem: Write algorithm that calculates the sum of the squares of the first n numbers
 
 s = 0
 
 # Enter input
-n = int(input('Enter a postive integer: '))
+n = int(input('Enter a positive integer: '))
 
 # Calc sum
 for i in range(1, n + 1):
